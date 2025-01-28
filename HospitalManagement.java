@@ -1,3 +1,32 @@
+/*Problem Statement: Hospital Management System
+You are tasked with developing a Hospital Management System that manages Doctors, Patients, and Administrative Staff. The system should:
+Allow Patients to:
+Book appointments with available doctors.
+View their medical history securely.
+Make payments for consultations and treatments.
+Allow Doctors to:
+View and manage their daily appointments.
+Access patient medical records (restricted access based on their specialization).
+Enable Admins to:
+Manage user data (Doctors, Patients).
+Oversee system-wide functionalities like generating reports or managing schedules.
+Key Requirements (Applying OOP Principles):
+Abstraction:
+Provide simple methods to interact with the system, hiding complex backend operations like appointment scheduling, record retrieval, and payment processing.
+        Encapsulation:
+Ensure sensitive data such as patient medical records and doctor salaries are secure and accessible only through controlled methods.
+        Inheritance:
+Create a base class for shared properties (e.g., name, email, phone number) and extend it for specific roles like Doctors, Patients, and Admins.
+        Polymorphism:
+Implement role-specific actions such as:
+Patients viewing prescriptions.
+Doctors accessing appointments.
+Admins managing all system records.
+These actions should exhibit different behaviors based on the user type.
+The goal is to design a modular and secure system where different users interact seamlessly while maintaining proper data access and functionality separation.*/
+
+
+
 package hospitalManagement;
 
 import java.util.ArrayList;
