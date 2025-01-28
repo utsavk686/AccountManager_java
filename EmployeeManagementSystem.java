@@ -1,3 +1,19 @@
+/*Use Case Scenario: Employee Task Management System
+        Problem Statement
+        A company wants to develop an Employee Task Management System to efficiently manage employee tasks. The system should allow:
+        Storing Employee Information (ID, Name, Department).
+        Assigning Tasks to employees with details like Task ID, Description, Priority, and Status.
+        Retrieving Tasks based on priority, employee name, or department.
+        Removing Completed Tasks from the system.
+        Tracking Pending Tasks assigned to employees.
+        Collections to be Used
+        HashMap<Integer, Employee> → To store employees with their employee ID as the key.
+        HashMap<Integer, List<Task>> → To store tasks assigned to each employee.
+        PriorityQueue<Task> → To retrieve tasks based on priority.
+        LinkedList<Task> → To maintain a list of pending tasks.*/
+
+
+
 package employeeManagement;
 
 import java.util.ArrayList;
@@ -178,7 +194,7 @@ public static void main(String[] args) {
                 int taskEmpId = scanner.nextInt();
                 System.out.print("Enter Task ID: ");
                 int taskId = scanner.nextInt();
-                scanner.nextLine(); // Consume newline
+                scanner.nextLine(); 
                 System.out.print("Enter Task Description: ");
                 String taskDesc = scanner.nextLine();
                 System.out.print("Enter Task Priority: ");
