@@ -11,4 +11,28 @@ This use case involves building a Hospital Management System that efficiently ha
 
 ## Task-4 ---> Employee Task Management System
 This use case describes an Employee Task Management System that allows managing employee tasks efficiently. The system stores employee information, assigns tasks with details like priority and status, and allows retrieving tasks based on various criteria such as priority or department. Completed tasks are removed, and pending tasks are tracked. It leverages collections such as HashMap for storing employees and tasks, PriorityQueue for task prioritization, and LinkedList for managing pending tasks.
- 
+
+## Task-5 ---> Person Registration Web Application
+This is a simple Person Registration web application built using Java (Servlets), MySQL, and HTML/CSS. The application allows users to register their details, which are stored in a MySQL database.
+
+### Features
+User registration with Person ID, Name, and Country.
+
+Stores user details in a MySQL database.
+
+Redirects to a Welcome Page after successful registration.
+
+Provides a reset option for clearing form inputs.
+
+### Technologies Used
+Java (Servlets)
+
+Jakarta Servlet API
+
+HTML, CSS
+
+MySQL Database
+
+JDBC
+
+Screenshots
