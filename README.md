@@ -35,4 +35,8 @@ MySQL Database
 
 JDBC
 
-Screenshots
+### Screenshots
+
+![408874124-540f1867-7cd7-4a55-ba35-fc891f3d94c7](https://github.com/user-attachments/assets/e0351f14-4a25-421c-bcd5-a6f77e1a0e72)
+![408874188-96a746b8-bc81-43a8-a702-8f1f1861db4f](https://github.com/user-attachments/assets/9071a079-a134-432a-bbe6-06433475a639)
+![408874159-63e1a41a-a3a2-492f-ae8d-79dda4d4aa28](https://github.com/user-attachments/assets/ca5087ca-83e5-4856-a7f4-0b7bd4e537d2)
